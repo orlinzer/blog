@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  height: 3em;
+
+  padding: 0 1em;
+
+  background-color: #0ff;
+
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-self: flex-start;
+  align-items: center;
+  align-content: center;
+  gap: 1em;
+}
+
+header img {
+  width: 2em;
+  height: 2em;
+}
